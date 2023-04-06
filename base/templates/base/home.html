@@ -1,1 +1,77 @@
-<h3>Hello World</h3>
+
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sagar Dhungana</title>
+    <link rel="stylesheet" href="{% static '/css/main.css' %}" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+{#    <h3>Hello World</h3>#}
+{#    #}
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card card-body h-100 border-info" id="profiel-wrapper">
+                <img id="profile-pic" src="{% static 'images/model_images.jpg' %}" alt="Model images" height="150px" width="150px">
+                <hr>
+                <h4>Hi, I'm xxxxx</h4>
+                <p>I am a model. I love doing modeling and photo-shoot...</p>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="card card-body h-100 border-info">
+                    <h4>My experience as a model.</h4>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A fugiat maxime numquam porro possimus quas, sunt vero! Ad cum eveniet ipsum officia omnis quidem, ratione similique suscipit veniam voluptate? Aliquid.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ducimus ex excepturi hic ipsa laborum libero odit quasi recusandae repellat tempore, totam. Aperiam atque dolorum eos libero magnam officia vero.
+
+                    <p>Lorem ipsum dolor sit amet, consectet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias asperiores assumenda consequuntur delectus esse itaque minus modi nihil non nulla obcaecati perferendis perspiciatis provident quod rerum saepe sit tempore, temporibus?
+
+                    <p>lorem ipsum dolor sit amet, lorem ipsum dolor sit lorem ipsum dolor lorem ipsum dolor</p>
+                </p>
+                <ul class="social-links">
+                    <li><img class="social" src="{% static 'images/facebook.png' %}"> </li>
+                    <li><img class="social" src="{% static 'images/instagram.png' %}"> </li>
+                    <li><img class="social" src="{% static 'images/linkedin.png' %}"> </li>
+                    <li><img class="social" src="{% static 'images/twitter.png' %}"> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<br>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-body">
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card card-body">
+
+            </div>
+        </div>
+    </div>
+<br>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-body">
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card card-body">
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
